@@ -1,0 +1,28 @@
+.main-item-container {
+  display: flex;
+}
+img {
+  width: 100%;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0px 0px 3px 1px #ddd;
+  padding-top: 0.7em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+h2.title {
+  text-align: center;
+}
+.titleMostViewed {
+  text-align: center;
+  font-weight: bold;
+}
+.priceMostViewed {
+  text-align: center;
+  color: rgb(185, 174, 174);
+}
