@@ -1,0 +1,15 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+}
+.Btn{
+    background-color: white;
+    border: groove black 2px;
+    padding: 0em 3em;
+    font-family: Cerebri Sans, Arial, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    display: block;
+    line-height: 45px;
+    margin: 52px auto 72px;
+}
