@@ -3,6 +3,7 @@ import HeroImage from "./HeroImage"
 import Footer from "./Footer"
 import ViewCards from "./ViewCards"
 import Navbar from "./Navbar"
+import MostViewed from "./MostViewed"
 
 
 export class App extends Component {
@@ -12,6 +13,7 @@ export class App extends Component {
         <Navbar/>
         <HeroImage/>
         <ViewCards/>
+        <MostViewed/>
         <Footer/>
       </div>
     )

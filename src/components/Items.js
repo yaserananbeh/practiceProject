@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./mostViewed.css";
+import "../style/mostViewed.css";
 
 export class Items extends Component {
   render() {
