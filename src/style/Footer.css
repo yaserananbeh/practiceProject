@@ -1,0 +1,46 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0.5em 0;
+    color:#aeaeae;
+}
+
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+}
+
+
+.Footer .headerList{
+   font-weight: 700;
+   margin-bottom: 2.5em;
+   color:black
+}
+
+.copyrigth{
+    border-top: 1px solid #efefef;
+    padding: 0.5em;
+    margin-top: 2em;
+    color:#aeaeae;
+    display: flex;
+   justify-content: center;
+}
+
+.copyrigth span{
+    color:black;
+    font-weight: 700;
+}
+
+.Footer .social {
+    display: flex;
+}
+
+.Footer .social li{
+    margin-right: 2em;
+}
+
