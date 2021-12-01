@@ -1,0 +1,42 @@
+.heroImageContainer{
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all 0.5s ease-out;
+}
+.heroImageContainer .shopNowBtn{
+    background-color: black;
+    color: white;
+    margin: 0 auto 5% auto;
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.heroImageContainer .shopNowBtn:hover{
+    background-color: white;
+    color: black;
+}
+.toggeleSlider{
+    display: flex;
+    justify-content: center;
+}
+.toggeleSlider button{
+    cursor: pointer;
+    border:1px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin:5px;
+}
+.buttonsArea{
+    margin: 0 auto 3% auto;
+}
