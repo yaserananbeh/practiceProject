@@ -21,7 +21,9 @@ ul li{
    margin-bottom: 2.5em;
    color:black
 }
-
+.Footer > div{
+    margin:0 auto;
+}
 .copyrigth{
     border-top: 1px solid #efefef;
     padding: 0.5em;

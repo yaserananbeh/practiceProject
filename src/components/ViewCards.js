@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import MostWanted from './MostWanted'
 import "../style/viewCards.css"
-export class viewCards extends Component {
+export class ViewCards extends Component {
     render() {
            this.objCard=[
                 {src:"./assets/images/blover.jpg",
@@ -33,4 +33,4 @@ export class viewCards extends Component {
     }
 }
 
-export default viewCards
+export default ViewCards

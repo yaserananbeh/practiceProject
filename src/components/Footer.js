@@ -33,9 +33,9 @@ class Footer extends Component{
             <ul >
             <li  className="headerList">FOLLOW US</li>
             <div className="social">
-            <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
-                <li><i class="fab fa-instagram-square"></i></li> 
+            <li><i className="fab fa-facebook"></i></li>
+                <li><i className="fab fa-linkedin-in"></i></li>
+                <li><i className="fab fa-instagram-square"></i></li> 
                 </div>
                 </ul>
               </div>
