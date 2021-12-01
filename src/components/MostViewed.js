@@ -27,9 +27,9 @@ export class MostViewed extends Component {
       <>
         <h2 className="title"> Most Viewed Items</h2>
         <div className="main-item-container">
-          {MostItems.map((item) => {
+          {MostItems.map((item,index) => {
             return (
-              <Items src={item.src} title={item.title} price={item.price} />
+              <Items key={index} src={item.src} title={item.title} price={item.price} />
             );
           })}
         </div>
